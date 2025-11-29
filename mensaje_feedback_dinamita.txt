@@ -1,0 +1,25 @@
+Hola Valientes integrantes de Dinamita, su proyecto tiene aspectos técnicos sobresalientes que me impresionaron mucho, pero también una deficiencia crítica que debemos atender con urgencia. Aquí les dejo lo que observé:
+
+REPORTE TEÓRICO EN LATEX [ 0/20 ]: Esta es la parte más preocupante. No encontré ningún archivo LaTeX ni PDF de reporte teórico en su repositorio. Este es un entregable FUNDAMENTAL que representa el 20% de su calificación. Sin este documento no puedo evaluar su comprensión teórica de las definiciones, algoritmos y decisiones de diseño. URGENTE: necesitan desarrollar este reporte antes del 3 de Diciembre para recuperar estos 20 puntos.
+
+IMPLEMENTACIÓN EN HASKELL [ 30/30 ]: ¡Excelente trabajo! Su implementación es de calidad profesional. Modularización impecable con 8 módulos muy bien diseñados (~1600 líneas), pipeline teórico completo y funcional (ER → AFNε → AFN → AFD → AFDmin → MDD → Lexer), arquitectura limpia y código bien comentado. Uso apropiado de Happy para el parser. Realmente me hacen sentir orgulloso de que lo hayan logrado tan bien. Sin más comentarios, es trabajo de nivel profesional.
+
+MDD & LEXER [ 15/15 ]: Excelente chicos. Lexer funcional con maximal munch correcto, backtracking apropiado cuando el autómata se traba, manejo de wildcards y rangos ([a-z], [^c]), y manejo de errores léxicos. MDD bien diseñado con etiquetado correcto de estados finales. Se ve que le dedicaron tiempo y esfuerzo, genial.
+
+PRUEBAS Y CALIDAD [ 6/10 ]: Buena estructura de repositorio (66 commits, workflow con múltiples branches como AFNep-AFN, afd, afdmin, lexer, 3 archivos de prueba bien diseñados, README claro). Sin embargo, faltan los entregables formales: specs/IMP.md y samples/imp/ (aunque tienen los archivos de prueba en app/). También el test/Spec.hs solo tiene un placeholder. Hubiese estado mejor que diseñaran más tests formales y siguieran la estructura de entregables requerida.
+
+EXPOSICIÓN GRUPAL [ 15/15 ]: Exposición sólida con buen dominio del tema y uso apropiado del tiempo. Lo hicieron muy bien. Solo como recomendación para el futuro: se les exhorta a mantener más la calma durante las presentaciones, eso les dará aún más seguridad.
+
+COLABORACIÓN Y ROLES [ 9/10 ]: Trabajo coordinado evidenciado en los branches y commits. Se nota que trabajaron bien con Git (branches por feature, integración exitosa). Sin embargo, noté cierta desigualdad en la distribución de commits: Maxo y Andrés concentran ~90% del trabajo. Para futuros proyectos, consideren pair programming para distribuir mejor el aprendizaje.
+
+EXTRA [ 0/5 ]: Sin segundo lenguaje. No se preocupen, nada es perfecto. :b
+
+TOTAL: 75 = 7.5
+
+PERO AQUÍ ESTÁ LA BUENA NOTICIA: Con el reporte LaTeX completo pueden subir a 95 puntos (9.5), y si además agregan specs/IMP.md formal y algunos tests, pueden llegar hasta 99 (9.9). Su implementación técnica es excepcional y merece una calificación sobresaliente. No permitan que la falta del reporte opaque su excelente trabajo de programación.
+
+Les adjunto un reporte de evaluación completo con todos los detalles, recomendaciones específicas y hasta una estructura sugerida para el LaTeX. Por favor revísenlo con calma.
+
+Por favor, si tienen algún comentario sobre su calificación, háganmelo saber antes del día 3 de Dic, para poder ayudarles con mayor agilidad. Y sobre todo, PRIORIDAD #1: desarrollen ese reporte teórico. Su código lo merece.
+
+¡Ánimo! El trabajo técnico que hicieron es realmente impresionante.
